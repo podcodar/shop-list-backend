@@ -1,0 +1,11 @@
+{
+  "name": "shop-list-backend",
+  "version": "1.0.0",
+  "description": "Api for PodCodar ShopList project",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Cassios Marques",
+  "license": "ISC"
+}
