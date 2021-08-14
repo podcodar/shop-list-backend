@@ -4,7 +4,8 @@
   "description": "Api for PodCodar ShopList project",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "echo \"Error: no test specified yet\" && exit 1",
+    "start": "nodemon ./src/server.js"
   },
   "author": "Cassios Marques",
   "license": "ISC",
@@ -14,6 +15,10 @@
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.24.0",
     "eslint-plugin-prettier": "^3.4.0",
+    "nodemon": "^2.0.12",
     "prettier": "^2.3.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }
