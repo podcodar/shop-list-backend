@@ -1,8 +1,9 @@
 const express = require('express');
 
+const itemController = require('./controllers/item');
+
 const app = express();
 
-app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 app.get('/', (req, res) => {
@@ -11,4 +12,7 @@ app.get('/', (req, res) => {
     subTitle: 'Hello World',
   });
 });
+
+app.use('/items', itemController);
+
 module.exports = app;
